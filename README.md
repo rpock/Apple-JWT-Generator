@@ -23,7 +23,7 @@ run-apple-jwt-generator.bat
 This program generates the necessary JWT for Apple Sign In authentications implemented on web platforms like Supabase. It was inspired by the JWTToken code from [Balvinder Singh](https://gist.github.com/balvinder294) but has been updated to the latest standards and extended with a user-friendly interface.
 
 Key improvements:
-- Compatibility with Apple's .p8 file format (which wasn't accounted for in Balvinder's original code)
+- Compatibility with Apple's .p8 file format (PEM vs. PKCS8 format)
 - Interactive command-line interface for easy input
 - Cross-platform support (macOS, Unix, Windows)
 
@@ -95,13 +95,13 @@ $ ./run-apple-jwt-generator.sh
                                       by pock.biz 
 
 Choose an option: 1
-Enter the Key ID: Y43U7A77K8
+Enter the Key ID: Y77U7A77K7
 Choose an option: 2
-Enter the Team ID: D6KY765B98
+Enter the Team ID: D6KY777B77
 Choose an option: 3
-Enter the Client ID: at.farme.app.signin
+Enter the Client ID: com.your.app.signin
 Choose an option: 4
-Enter the Key File Path: /path/to/your/AuthKey_Y43U7A77K8.p8
+Enter the Key File Path: /path/to/your/AuthKey_Y77U7A77K7.p8
 Choose an option: 5
 Generated JWT: eyJhbGciOiJFUzI1NiIsImtpZCI6I...
 
@@ -119,7 +119,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
