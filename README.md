@@ -106,8 +106,8 @@ Enter the Key File Path: /path/to/your/AuthKey_Y77U7A77K7.p8
 Choose an option: 5
 Generated JWT: eyJhbGciOiJFUzI1NiIsImtpZCI6I...
 
-Generation time: 2023-05-15 10:30:15
-Expiration time: 2023-11-11 10:30:15
+Generation time: 2024-07-28 13:04:04
+Expiration time: 2025-01-27 02:34:04
 
 Choose an option: 0
 
