@@ -2,7 +2,7 @@
 
 Generate JSON Web Tokens (JWTs) for Apple Sign In authentication, especially useful for web platforms like Supabase.
 
-[Download Executable Files](https://github.com/yourusername/apple-jwt-generator/releases/latest)
+[Download Executable Files](https://github.com/rpock/apple-jwt-generator/releases/latest)
 
 ## Quick Start
 
@@ -79,6 +79,7 @@ To create a standalone executable JAR:
 3. Find the generated JAR file in the `target` directory.
 
 ## Example
+![Preview](images/preview.png)
 
 ```
 $ ./run-apple-jwt-generator.sh
