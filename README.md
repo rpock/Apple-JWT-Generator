@@ -38,7 +38,7 @@ Key improvements:
 ### Compilation Steps
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/apple-jwt-generator.git
+   git clone https://github.com/rpock/apple-jwt-generator.git
    cd apple-jwt-generator
    ```
 
